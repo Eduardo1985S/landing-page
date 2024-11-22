@@ -10,16 +10,51 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="./src/styles/style.css" />
+    <link rel="stylesheet" href="./src/styles/header.css" />
+
+    <!-- fonts google -->
+     
     <title>Landing Page</title>
   </head>
-  <body></body>
+  <body>
   <header>
     <nav id="navbar">
       <i class="fa-solid fa-burger" id="nav_logo">Food</i>
 
       <ul id="nav_list">
-        <a href="#">Início</a>
+        <li>
+          <a href="#home" active>Início</a>
+        </li>
+        <li>
+          <a href="#menu">Cardápio</a>
+        </li>
+        <li>
+          <a href="#testimonial">Avaliações</a>
+        </li>
       </ul>
+      
+      <button class="btn-default">Peça Aqui</button>
+
+      <button class="mobile-btn">
+        <i class="fa-solid fa-bars"></i>
+      </button>
     </nav>
+
+    <div id="mobile_btn">
+        <ul id="nav_list">
+            <li>
+              <a href="#home">Início</a>
+            </li>
+            <li>
+              <a href="#menu">Cardápio</a>
+            </li>
+            <li>
+              <a href="#testimonials">Avaliações</a>
+            </li>
+          </ul>
+          <button class="btn-default">Peça Aqui</button>
+    </div>
   </header>
+</body>
 </html>
